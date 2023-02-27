@@ -1,1 +1,63 @@
-# Program Output
+
+M03 Lab - Case Study -- Program Output
+
+ ----------------------------------------------------
+     Output with no input errors
+  ----------------------------------------------------
+    
+Please enter the vehicle type: car
+Please enter a vehicle year: 2020
+Please enter a vehicle make: Toyota
+Please enter a vehicle model: Corolla
+Please enter the number of doors in the vehicle (Must be 2 or 4): 4
+Please enter the vehicle roof type (Must be solid or sun roof): sun roof
+
+Vehicle type: car
+Year: 2020
+Make: Toyota
+Model: Corolla
+Number Of Doors: 4
+Type Of Roof: Sun Roof
+
+ ----------------------------------------------------
+     Output with number of doors input errors
+  ----------------------------------------------------
+ 
+Please enter the vehicle type: Car
+Please enter a vehicle year: 2020
+Please enter a vehicle make: Toyota
+Please enter a vehicle model: Corolla
+Please enter the number of doors in the vehicle (Must be 2 or 4): 3
+Please enter the number of doors in the vehicle (Must be 2 or 4): 5
+Please enter the number of doors in the vehicle (Must be 2 or 4): 1
+Please enter the number of doors in the vehicle (Must be 2 or 4): 6
+Please enter the number of doors in the vehicle (Must be 2 or 4): 4
+Please enter the vehicle roof type (Must be solid or sun roof): sun roof
+
+Vehicle type: Car
+Year: 2020
+Make: Toyota
+Model: Corolla
+Number Of Doors: 4
+Type Of Roof: Sun Roof
+
+ ----------------------------------------------------
+     Output with vehicle roof type input errors
+  ----------------------------------------------------
+ 
+Please enter the vehicle type: Car
+Please enter a vehicle year: 2020
+Please enter a vehicle make: Toyota
+Please enter a vehicle model: Corolla
+Please enter the number of doors in the vehicle (Must be 2 or 4): 4
+Please enter the vehicle roof type (Must be solid or sun roof): sand roof
+Please enter the vehicle roof type (Must be solid or sun roof): solider
+Please enter the vehicle roof type (Must be solid or sun roof): san roof
+Please enter the vehicle roof type (Must be solid or sun roof): sun roof
+
+Vehicle type: Car
+Year: 2020
+Make: Toyota
+Model: Corolla
+Number Of Doors: 4
+Type Of Roof: Sun Roof

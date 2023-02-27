@@ -1,4 +1,9 @@
-# new m03
+""" M03 Lab - Case Study 
+    Paul R. Thompson
+    File Name: m03.py
+    Program description:
+        This program uses a class / superclass relationship
+        to describe a vehicle based on user input.          """
 
 class Vehicle:
 
@@ -6,10 +11,10 @@ class Vehicle:
         self.vtyp = vtyp
 
     def transport(self):
-        print(f"Vehicle type: {self.vtyp}")
+        print(f"\nVehicle type: {self.vtyp}")
 
     def print_all_auto_input(self):
-         everything = f"Year: {self.year}\nMake: {self.make}\nModel: {self.model}\nNumber of doors: {self.num_doors}\nType of roof: {self.roof_type}"
+         everything = f"Year: {self.year}\nMake: {self.make}\nModel: {self.model}\nNumber of doors: {self.num_doors}\nType of roof: {self.roof_type}\n"
          return everything.title()
 
 class Automobile(Vehicle):
@@ -22,7 +27,7 @@ class Automobile(Vehicle):
         self.roof_type = roof_type
         super().__init__(vtyp, year, make, model, num_doors, roof_type)
 
-my_type = str(input("Please enter the vehicle type: "))
+my_type = str(input("\nPlease enter the vehicle type: "))
 my_year = str(input("Please enter a vehicle year: "))
 my_make = str(input("Please enter a vehicle make: "))
 my_model = str(input("Please enter a vehicle model: "))
